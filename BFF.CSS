@@ -1,0 +1,301 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* navbar start */
+
+.nav-section {
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  padding: 10px 80px 10px 80px;
+  flex-wrap: wrap;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  border: 0;
+  background-color: #f0f0f0;
+  font-size: 16px;
+}
+.nav-section ul {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  padding: 12px 14px;
+}
+.login-button {
+  width: 136px;
+  height: 49px;
+  border-radius: 5px;
+  padding: 13px;
+  gap: 10px;
+  background: linear-gradient(
+    90deg,
+    #5d3e31 0%,
+    #704b3b 24%,
+    #855946 50%,
+    #7d5c4e 100%
+  );
+  color: #f0f0f0;
+  text-align: center;
+  border: none;
+}
+.nav-logo {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 125%;
+  padding: 12px 14px;
+  height: 25px;
+  width: 220px;
+}
+.sopping-icon {
+  width: 40px;
+  height: 40px;
+  padding: 12px 14px;
+}
+/* navbaar end */
+/* hero section start */
+.containor {
+  display: flex;
+  padding: 80px;
+}
+
+.content {
+  font-size: 25px;
+  padding-top: 80px;
+}
+.content p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 125%;
+  margin-top: 24px;
+  font-family: sans;
+  color: #7d5c4e;
+}
+.button2 {
+  width: 432px;
+  height: 66px;
+  padding: 13px;
+  border-radius: 5px;
+  background: linear-gradient(
+    90deg,
+    #5d3e31 0%,
+    #704b3b 24%,
+    #855946 50%,
+    #7d5c4e 100%
+  );
+  color: #f0f0f0;
+  font-weight: 400;
+  text-align: center;
+  font-size: 18px;
+  line-height: 125%;
+  border: none;
+
+}
+.hero-images img {
+  height: 40px;
+  width: 40px;
+  margin-top: 48px;
+  align-items: center;
+}
+.hero-images p {
+  font-size: 16px;
+  color: #656363;
+  font-weight: 600;
+}
+.hero-images a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 21px;
+}
+.hero-images {
+  display: flex;
+}
+.beef1 img {
+  width: 662px;
+  height: 598px;
+}
+.containor2 p {
+  font-family: Arial, sans-serif;
+  background: #fff7f5;
+  font-size: 48px;
+  justify-content: center;
+  text-align: center;
+  padding-top: 80px;
+  font-weight: 700;
+}
+/* containor3 start */
+.containor3 {
+  font-family: Arial, sans-serif;
+  background: #fff7f5;
+
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding-top: 150px;
+  overflow: hidden;
+  /* flex-wrap: wrap;  */
+}
+.card {
+  background-color: #ffffff;
+  width: 305px;
+  height: 334px;
+  border: 1px solid #ffffff;
+  border-radius: 30px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 1px 2px 0px #0000004d;
+}
+.cards img {
+  width: 305px;
+  height: 212px;
+}
+.inner {
+  display: flex;
+  height: 70px;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  border-radius: 50%;
+  background-color: #5d3e31;
+  z-index: 2;
+}
+.card-content p {
+  font-size: 18px;
+  color: #7d5c4e;
+  font-weight: 400;
+  line-height: 125%;
+  padding: 10px;
+  font-family: Source Sans Pro;
+}
+/* containor 4 */
+.containor4 {
+  
+  padding: 80px;
+text-align: center;
+}
+.containor4 p {
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+
+}
+.google-content img {
+  width: 624px;
+  height: 158px;
+  border-radius: 34px;
+  border: 2px snow;
+
+  align-items: center;
+  padding-top: 64px;
+}
+.google-content p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 125%;
+  color: #7d5c4e;
+  padding-top: 64px;
+}
+.delivery-product-icon {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 64px;
+}
+.delivery-product-icon span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.delivery-product-icon img {
+  width: 70px;
+  height: 78px;
+}
+.delivery-product-icon span p {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #656363;
+}
+.Read-more {
+  width: 432px;
+  height: 66px;
+  padding: 13px;
+  border-radius: 5px;
+  margin-top: 48px;
+  color: #f0f0f0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 125%;
+  border: none;
+  background: linear-gradient(
+    90deg,
+    #5d3e31 0%,
+    #704b3b 24%,
+    #855946 50%,
+    #7d5c4e 100%
+  );
+}
+/* containor5-beef */
+.containor5-beef {
+  display: flex;
+  justify-content: space-evenly;
+  background: #FDF8F7;
+}
+
+.dog-food{
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 125%;
+  text-align: center;
+    background: #FDF8F7;
+    padding: 80px;
+}
+.image{
+width: 320px;
+height:491px;
+text-align: center;
+}
+.image img{
+  width: 320px;
+  height: 320px;
+}
+.image-content h3{
+font-size: 36px;
+font-weight: 700;
+color:#352B26 ;
+line-height: 125%;
+}
+.image-content p{
+font-size: 18px;
+font-weight: 400;
+line-height: 125%;
+color: #7D5C4E;
+ padding: 13px;
+}
+.explore-our-Meals  {
+  flex-direction: column;
+  width: 432px;
+  height: 66px;
+  padding: 13px;
+  border-radius: 5px;
+  margin-top: 48px;
+  color: #f0f0f0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 125%;
+  border: none;
+  background: linear-gradient(
+    90deg,
+    #5d3e31 0%,
+    #704b3b 24%,
+    #855946 50%,
+    #7d5c4e 100%
+  );
+}
+/* containor 6 start */
+.containor6 p{
+font: size 18px; ;
+}
