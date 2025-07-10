@@ -61,9 +61,13 @@
   padding: 80px;
 }
 
-.content {
-  font-size: 25px;
-  padding-top: 80px;
+.content h1{
+  font-family: Source Serif Pro;
+font-weight: 700;
+font-style: Bold;
+font-size: 56px;
+line-height: 125%;
+padding-top: 80px;
 }
 .content p {
   font-weight: 400;
@@ -120,51 +124,54 @@
   width: 662px;
   height: 598px;
 }
-.containor2 p {
-  font-family: Arial, sans-serif;
-  background: #fff7f5;
-  font-size: 48px;
-  justify-content: center;
-  text-align: center;
-  padding-top: 80px;
-  font-weight: 700;
-}
+/* card section */
 /* containor3 start */
-.containor3 {
-  font-family: Arial, sans-serif;
-  background: #fff7f5;
-
-  padding: 20px;
+.card-main-containor {
   display: flex;
-  justify-content: space-between;
-  gap: 10px;
-  padding-top: 150px;
-  overflow: hidden;
-  /* flex-wrap: wrap;  */
+  justify-content: space-around;
+  background: #fff7f5;
+  column-gap: 10px;
+  padding-top: 40px;
+  height: auto;
+
+}
+.work p {
+  font-family: Arial, sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+    background: #fff7f5;
 }
 .card {
   background-color: #ffffff;
   width: 305px;
   height: 334px;
-  border: 1px solid #ffffff;
-  border-radius: 30px;
-  padding: 20px;
-  text-align: center;
-  box-shadow: 0px 1px 2px 0px #0000004d;
+
 }
-.cards img {
+.card-details {
+  position: relative;
+  background-color: var(--NeroWhite);
+  padding: 40px 12.5px 24px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  height: 334px;
+  margin-top: -40px; 
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+}
+.phone-img img {
   width: 305px;
   height: 212px;
 }
-.inner {
-  display: flex;
-  height: 70px;
-  align-items: center;
-  justify-content: center;
-  width: 70px;
+.inner p {
+  font-weight: 700;
+  font-size: 30px;
   border-radius: 50%;
-  background-color: #5d3e31;
   z-index: 2;
+  background-color: #7d5c4e;
+  border: 2px solid #7d5c4e;
 }
 .card-content p {
   font-size: 18px;
@@ -176,6 +183,7 @@
 }
 /* containor 4 */
 .containor4 {
+  margin-top: 120px;
   padding: 80px;
   text-align: center;
 }
@@ -189,7 +197,6 @@
   height: 158px;
   border-radius: 34px;
   border: 2px snow;
-
   align-items: center;
   padding-top: 50px;
 }
@@ -306,6 +313,7 @@
   list-style: 125%;
   color: #7d5c4e;
   text-align: center;
+  margin-top: 40px;
 }
 .containor6 h2 {
   font-size: 48px;
@@ -428,9 +436,9 @@
 }
 .icons-content {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   justify-content: center;
-  gap: 300px;
+  column-gap: 200px;
 }
 .icons-content img {
   height: 90px;
@@ -529,6 +537,15 @@
   border-width: 1px;
   padding: 48px;
 }
+.img-2 img {
+  width: 544px;
+  height: 424px;
+  opacity: 1;
+  gap: 36px;
+  border-radius: 8px;
+  border-width: 1px;
+  padding: 48px;
+}
 /* containor 10 email cnt */
 .containor10 {
   width: 100%;
@@ -574,6 +591,7 @@ input[type] {
   padding: 15px 20px;
   margin-top: 45px;
   margin-left: 100px;
+
 }
 .subscribe {
   background: linear-gradient(
@@ -592,6 +610,7 @@ input[type] {
   gap: 10px;
   border-radius: 5px;
   padding: 13px;
+  margin-left: -4px;
 }
 .dogs-img img {
   height: 700px;
@@ -645,7 +664,7 @@ input[type] {
   column-gap: 150px;
   align-items: center;
   padding: 80px;
-  background-color:#F0F0F0 ;
+  background-color: #f0f0f0;
 }
 .logo {
   font-family: Source Serif Pro;
@@ -710,13 +729,13 @@ input[type] {
   color: #49454f;
 }
 /* second div company */
-.footer-list{
-display: flex;
-justify-content: space-between;
-align-items: center;
-text-align: center;
+.footer-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
 }
-.lit-gap{
+.lit-gap {
   column-gap: 10px;
 }
 .company p {
@@ -744,13 +763,41 @@ text-align: center;
   color: #7d5c4e;
   padding: 60px;
 }
-.useful-links ul{
+.useful-links ul {
   font-family: Source Sans Pro;
   font-weight: 400;
   font-size: 16px;
   color: #49454f;
   list-style: none;
 }
-.footer-end{
-  border-bottom: 1px solid black;
+.footer-end {
+  width: 90%;
+
+  border: 1px solid #00000044;
+
+  margin: auto;
+}
+.footer-end-cnt {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
+.Brunswick p {
+  font-family: Source Sans Pro;
+  font-weight: 400;
+  font-size: 16px;
+  color: #49454f;
+}
+.social-logo {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+.instagram img {
+  width: 30px;
+  height: 30px;
+}
+.dogs-img img {
+  width: 100%;
+  height: 337px;
 }

@@ -1,0 +1,209 @@
+/* table and phone */
+@media screen and (max-width: 768px) {
+  /* header section */
+  .nav-section {
+    height: 70px;
+  }
+  .nav-section ul {
+    display: none;
+  }
+  .login-button {
+    display: none;
+  }
+  /* hero section */
+  .containor {
+    flex-direction: column;
+    padding: 13px;
+  }
+  .button2 {
+    width: 70%;
+    height: 44px;
+    opacity: 1;
+    gap: 10px;
+    border-radius: 5px;
+    padding: 13px auto;
+
+  }
+  .content h1 {
+    font-size: 28px;
+  }
+  .content p {
+    font-size: 16px;
+  }
+  .beef1 img {
+    width: 100%;
+    height: auto;
+  }
+  /* cards section */
+  .work{
+    font-size:28px ;
+  }
+  .card-main-containor{
+    flex-wrap: wrap;
+    row-gap: 200px;
+  }
+  /* containor 4 */
+  .containor4 p{
+    font-size: 28px;
+  }
+  .containor4{
+
+  }
+  .google-content img{
+    width: 100%;
+    height: auto;
+  }
+  .google-content p{
+    font-size: 16px;
+  }
+  .delivery-product-icon img{
+    width: 40px;
+    height: 40px;
+  }
+  .delivery-product-icon span p {
+    font-size: 16px;
+  }
+  .Read-more {
+    width: 70%;
+    height: 44px;
+    opacity: 1;
+    gap: 10px;
+    border-radius: 5px;
+    padding: 13px auto;
+    font-size: 16px;
+  }
+  /*  containor 5 */
+.dog-food{
+font-size: 29px;
+}
+.containor5-beef{
+    flex-wrap: wrap;
+}
+.image-content h3{
+    font-size: 22px;
+}
+.expolore-our-Meals{
+     width: 70%;
+    height: 44px;
+    opacity: 1;
+    gap: 10px;
+    border-radius: 5px;
+    padding: 13px auto;
+    font-size: 16px;
+    margin: auto;
+}
+/* containor 6 */
+.containor6 h2{
+    font-size: 28px;
+}
+.containor6 p{
+    font-size: 18px;
+}
+.img-graph{
+    display: none;
+}
+.dog-img-content img {
+  width: 80%;
+  height:156px ;
+  margin: auto;
+}
+.dog-img-content h4{
+    font-size: 28px;
+}
+.dog-img-content p{
+ font-size: 16px;
+}
+/* containor 7 */
+.containor7 h1{
+    font-size: 28px;
+}
+.containor7 p{
+    font-size: 16px;
+}
+.icons-content{
+    display: flex;
+    flex-direction: column;
+}
+.icons-content img {
+  height: 30px;
+  width: 30px;
+}
+.icons-content p{
+    font-size: 14px;
+}
+/* containor 8*/
+.our-bowl-plans{
+    font-size: 28px;
+}
+.main-our {
+    gap: 52px;
+}
+.our-num{
+font-family: Source Serif Pro;
+font-weight: 700;
+font-style: Bold;
+font-size: 26px;
+line-height: 30px;
+text-align: center;
+
+}
+.our-num1{
+font-family: Source Sans Pro;
+font-weight: 400;
+text-align: center;
+}
+.main-plan-img{
+    flex-wrap: wrap;
+}
+.starter-img img {
+width: 153px;
+height: 148px;
+  opacity: 1;
+}
+/* containor 9 */
+.client-say{
+    font-size: 28px;
+}
+.img-2 img{
+    display: none;
+}
+/* containor 10 */
+.dog-box p{
+    font-size: 28px;
+}
+input[type]{
+    width: 312px;
+height:40px;
+opacity: 1;
+top: 148.11px;
+left: 24px;
+border-radius: 5px;
+border-width: 1px;
+
+}
+.subscribe{
+    width: 95px;
+height: 44px;
+opacity: 1;
+top: 148px;
+left: 241px;
+gap: 10px;
+border-radius: 5px;
+padding: 13px;
+}
+.dogs-img img{
+    width: 80%;
+    height: 133px;
+}
+/*containor 11*/
+.pet-meal p{
+    font-size: 28px;
+}
+.pet-meal-cnt p {
+    font-size: 16px;
+}
+.dog-content-image{
+    flex-direction: column-reverse;
+}
+}
+
